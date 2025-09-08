@@ -10,7 +10,10 @@ module co.edu.unicesar.facturacion {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
-    opens co.edu.unicesar.facturacion to javafx.fxml;
     exports co.edu.unicesar.facturacion;
+    exports co.edu.unicesar.facturacion.Controllers;
+    opens co.edu.unicesar.facturacion to javafx.fxml;
+    opens co.edu.unicesar.facturacion.Controllers to javafx.fxml;
 }

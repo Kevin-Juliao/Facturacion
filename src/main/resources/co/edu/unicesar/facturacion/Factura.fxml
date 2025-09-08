@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="520.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.ControladorFactura">
+<AnchorPane prefHeight="520.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.unicesar.facturacion.CtrlFactura">
    <children>
       <Pane layoutX="76.0" layoutY="72.0" prefHeight="124.0" prefWidth="602.0" style="-fx-border-color: #000000; -fx-border-width: 2;">
          <children>
